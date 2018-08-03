@@ -1,5 +1,8 @@
 package kbh.com.practice.findDecimal;
 
+/**
+ * 소수 구하기 문제풀이
+ */
 public class FindDecimal {
 
     private int minNumber = 2;
