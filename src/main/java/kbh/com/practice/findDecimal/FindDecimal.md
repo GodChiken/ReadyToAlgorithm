@@ -1,7 +1,5 @@
 ## 소수 찾기
 
-||
-| :-------------: |
-|![애자일 방법론이 중요시 하는것](/images/FindDecimal.png) |  
-||
+|![소수찾기](/images/FindDecimal.png) | 
+
 
