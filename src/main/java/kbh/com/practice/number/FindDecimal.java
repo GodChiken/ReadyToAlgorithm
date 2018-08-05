@@ -1,4 +1,4 @@
-package kbh.com.practice.findDecimal;
+package kbh.com.practice.number;
 
 /**
  * 소수 구하기 문제풀이
