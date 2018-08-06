@@ -1,4 +1,4 @@
-package kbh.com.practice.string;
+package kbh.com.practice.level1;
 
 public class ConvertStringToInteger {
     public static void main(String[] args) {

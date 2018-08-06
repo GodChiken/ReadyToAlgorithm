@@ -1,4 +1,4 @@
-package kbh.com.practice.number;
+package kbh.com.practice.level1;
 
 /**
  * 소수 구하기 문제풀이
