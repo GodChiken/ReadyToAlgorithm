@@ -13,8 +13,7 @@ public class CaesarPassword {
     }
 
     private static String solution(String s, int n) {
-        String[] splitCharArray = s.split("");
-        List<Character> characterList = Arrays.stream(splitCharArray)
+        List<Character> characterList = Arrays.stream(s.split(""))
                                               .map(element -> element.charAt(0))
                                               .collect(toList());
         List<String> convertStringList = characterList.stream()
