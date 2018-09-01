@@ -29,18 +29,16 @@ public class SearchTester {
 
         //basicQueueTest();
 
-        Graph graph = new Graph(9);
-        graph.breadthFindSearch();
-        graph = new Graph(9);
-        graph.breadthFindSearch(3);
-        graph = new Graph(9);
-        graph.depthFindSearch();
-        graph = new Graph(9);
-        graph.depthFindSearch(3);
-        graph = new Graph(9);
-        graph.depthFindSearchByRecursive();
-        graph = new Graph(9);
-        graph.depthFindSearchByRecursive(3);
+        new Graph(9).breadthFindSearch();
+        new Graph(9).breadthFindSearch(3);
+
+        new Graph(9).depthFindSearch();
+        new Graph(9).depthFindSearch(3);
+
+        new Graph(9).depthFindSearchByRecursive();
+        new Graph(9).depthFindSearchByRecursive(3);
+
+        new Graph(9).breadthFindSearchByQueueInterface();
     }
 
     private static void basicQueueTest() {

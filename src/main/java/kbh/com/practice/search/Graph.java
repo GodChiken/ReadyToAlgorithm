@@ -2,6 +2,8 @@ package kbh.com.practice.search;
 
 import lombok.Data;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 import java.util.stream.IntStream;
 
@@ -123,5 +125,26 @@ public class Graph {
 
     void visit(Node node) {
         System.out.print(node.data + " ");
+    }
+
+    public void breadthFindSearchByQueueInterface(){
+        breadthFindSearchByQueueInterface(0);
+    }
+    public void breadthFindSearchByQueueInterface(int index) {
+        System.out.println("BFSByQueueInterface : ");
+        Queue<Node> queue = new LinkedList<>();
+        queue.offer(nodes[0]);
+        nodes[0].marked = true;
+        while (!queue.isEmpty()) {
+            Node r = queue.remove();
+            for (Node n : r.adjacent) {
+                if (n.marked == false) {
+                    n.marked = true;
+                    queue.offer(n);
+                }
+            }
+            visit(r);
+        }
+        System.out.println();
     }
 }
