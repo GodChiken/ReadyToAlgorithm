@@ -17,6 +17,10 @@
 https://github.com/GodChiken/ReadyToAlgorithm/tree/master/src/main/java/kbh/com/practice
 
 * 이론
-https://github.com/GodChiken/ReadyToAlgorithm/tree/master/src/main/java/kbh/com/theory
+https://github.com/GodChiken/ReadyToAlgorithm/issues   
+각 이슈별로 해당되는 이론을 정리를 우선적으로 진행    
+https://github.com/GodChiken/ReadyToAlgorithm/wiki   
+이슈에 첨부한 이론을 세부정보를 포함하여 재정리    
+
 
 
