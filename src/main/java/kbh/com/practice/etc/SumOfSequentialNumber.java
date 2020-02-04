@@ -42,14 +42,14 @@ public class SumOfSequentialNumber {
     }
 
     public static Long getSumByStream(Long number) {
-        return LongStream.range(1, number + 1).sum();
+        return LongStream.range(1L, number + 1L).sum();
     }
 
     public static Long getSumByParallelStream(Long number) {
-        return LongStream.range(1, number + 1).parallel().sum();
+        return LongStream.range(1L, number + 1L).parallel().sum();
     }
 
     public static Long getSumByCalculate(Long number) {
-        return number % 2 == 0 ? (number + 1) * (number / 2) : (number * (number - 1) / 2) + number;
+        return number % 2L == 0L ? (number + 1L) * (number / 2L) : (number * (number - 1L) / 2L) + number;
     }
 }
